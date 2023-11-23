@@ -14,6 +14,9 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
+  "engine":{
+    "node":">=14 <15"
+  },
   "author": "Aditya Shrimali",
   "license": "MITS",
   "dependencies": {
