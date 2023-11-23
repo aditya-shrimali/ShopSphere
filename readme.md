@@ -338,8 +338,8 @@ export default defineConfig({
   server: {
     // proxy requests prefixed '/api' and '/uploads'
     proxy: {
-      '/api': 'http://localhost:5000',
-      '/uploads': 'http://localhost:5000',
+      '/api': 'https://shopy-igrt.onrender.com',
+      '/uploads': 'https://shopy-igrt.onrender.com',
     },
   },
 });
@@ -376,8 +376,8 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000',
-      '/uploads': 'http://localhost:5000',
+      '/api': 'https://shopy-igrt.onrender.com',
+      '/uploads': 'https://shopy-igrt.onrender.com',
     },
   },
 });
