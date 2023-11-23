@@ -14,6 +14,9 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
+  "engines": {
+    "node":">=14 <15"
+  },
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
